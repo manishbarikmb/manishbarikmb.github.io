@@ -1,0 +1,252 @@
+* {
+    /*border: 1px solid #fff;*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.col-lg-12 {
+    overflow-y: hidden;
+}
+
+
+.h3-left, .h3-right {
+        max-width: 600px;
+ }
+
+
+@media only screen and (max-width: 1030px) {
+    .h3-left, .h3-right {
+        width: 350px;
+        padding: 8px 20px 8px 20px !important;
+        overflow-y: hidden;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .h3-left, .h3-right {
+        width: 210px;
+        overflow-y: hidden;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .h3-left, .h3-right {
+        width: 180px;
+        overflow-y: hidden;
+    }
+}
+
+.left {
+    overflow-y: hidden;
+}
+
+h2 {
+    overflow-y: hidden;
+}
+
+/* Carousels*/
+.carousel-inner {
+    background-color: rgba(0, 0, 0, 1);
+    border: 2px solid #000;
+}
+
+@media only screen and (max-width: 1600px){
+    .photo-size {
+        width: auto;
+        height: 450px;
+        max-height: 450px;
+}
+}
+
+@media only screen and (max-width: 800px){
+    .photo-size {
+        width: auto;
+        height: 350px;
+        max-height: 350px;
+}
+}
+
+@media only screen and (max-width: 500px){
+    .photo-size {
+        width: auto;
+        height: 225px;
+        max-height: 225px;
+}
+}
+
+
+/*Chats*/
+.row {
+    max-width: 960px;
+    margin: auto;
+}
+
+.right h3 {
+    padding-left: 200px;
+}
+
+.h3-right {
+    letter-spacing: 1.8px;
+    line-height: 1.5rem;
+    margin-top: 10px;
+    float :left;
+    font-size: 1.1em;
+    color: #000;
+    background-color: rgba(181,235,124,0.9);
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-right: -30px;
+}
+
+
+.h3-left {
+    letter-spacing: 1.8px;
+    line-height: 1.5rem;
+    margin-top: 10px;
+    float :right;
+    font-size: 1em;
+    color: #000;
+    background-color: rgba(  255, 247, 209, 0.9);
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    margin-left: -30px;
+
+}
+
+.left img {
+    border: 3px solid rgba( 255, 247, 209, 0.9);
+}
+
+
+.right img {
+    border: 3px solid rgba(181, 235, 124, 0.9);
+}
+
+.faceIcon {
+    border: 2px solid #000;
+    border-radius: 50%;
+    max-width: 3.5em;
+    display: inline;
+}
+
+#img1 img {
+    height: 20rem;
+    width: auto;
+    position: relative;
+    align-content: center;
+}
+
+#showcase {
+    background: url(img/cake.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+}
+
+.container-fluid {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+#showcase .container  {
+    font-family: Roboto, sans-serif;
+    max-width: 100%;
+    color: #f4f4f4;
+    text-align: center;
+    line-height: 1.8rem;
+    word-spacing: 0.1rem;
+    padding-bottom: 30px;
+}
+
+.container-fluid .container h2 {
+    overflow-y: hidden;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    line-height: 3rem;
+    text-decoration: underline overline solid #333;
+    letter-spacing: 3.5px;
+    font-weight: bolder;
+}
+
+.container-fluid .container p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.8rem;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    word-spacing: 0.4rem;
+    letter-spacing: 0.08rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.container-fluid {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    height: 100%;
+}
+
+#showcase p {
+    max-width: 80%;
+    margin: auto ;
+    margin-top: 20px;
+}
+
+.light-overlay {
+    padding: 30px 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 100%;
+    width: 90%;
+    margin: auto;
+}
+
+#bg-image1, #bg-image2, #bg-image3 {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#bg-image3 {
+    background-image: url(img/card.jpeg);
+}
+
+#bg-image2 {
+    background-image: url(img/balloons.jpeg);
+}
+
+#bg-image1 {
+    background-image: url(img/gifts.jpeg);
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none;
+}
+
+.carousel-indicators li {
+    visibility: hidden;
+}
+
+body{
+    background-color: #1f1f1f;
+}
+
+footer{
+    background-color: #1f1f1f;
+    padding-bottom: 0px;
+}
